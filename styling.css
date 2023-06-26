@@ -1,0 +1,66 @@
+body {
+  background-color: white;
+  padding: 20px;
+}
+
+/*font family used for headings(h2)*/
+@font-face {
+			font-family: familyheading;
+			src: url(Fonts/Pacifico/Pacifico-Regular.ttf);
+			
+}
+
+/*font family used for paragraphs*/		
+@font-face{		
+		font-family : familyparagraph;
+		src : url(Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+		font-weight : bold;
+}	
+	
+/*Class "flex-box" using for justifying 3 cards in to center and display as a row*/	
+.flex-box{
+		display : flex;
+		 flex-direction: row;
+		justify-content: center;
+	
+}	
+
+/*A class for containing an image and a description about each country*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 25%;
+  border-radius: 5px;
+  margin : 20px;
+  position: relative;
+}
+
+/* Increase the card shadow with mouse hover */
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+/*a class which holds the description of each country*/
+.container {
+  padding: 2px 16px;
+}
+
+h2 {
+  font-family: familyheading;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p{
+	font-family: familyparagraph;
+	margin : 40px 10px;
+}
+
